@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Контактная книга</title>
+    <link rel="stylesheet" href="./js/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="color: black">Контактная книга</h1>
+      <form id="contact-form">
+        <label style="color: gray" for="name">Имя:</label>
+        <input type="text" id="name" name="name" required />
+        <label style="color: gray" for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label style="color: gray" for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" required />
+        <button type="submit">Добавить контакт</button>
+      </form>
+      <ul id="contacts-list"></ul>
+    </div>
+    <!-- <div id="modal">
+      <nav class="modal_nav">
+        <h1>Modal title</h1>
+        <button>x</button>
+      </nav>
+      <hr />
+      <section class="modal_body">
+        <p>Model body Text</p>
+        <input type="text" />
+        <button>Save</button>
+      </section>
+      <footer class="modal_footer">
+        <button>close</button>
+      </footer>
+    </div> -->
+    <!-- Modal -->
+    <div class="modal">
+      <nav class="modal_nav">
+        <h1>Modal title</h1>
+        <button>x</button>
+      </nav>
+      <hr />
+      <section class="modal_body">
+        <p>Model body Text</p>
+        <input id="jj" type="text" />
+        <input id="gg" type="text" />
+        <input id="vv" type="text" />
+        <button>Save</button>
+      </section>
+      <footer class="modal_footer">
+        <button>close</button>
+      </footer>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
